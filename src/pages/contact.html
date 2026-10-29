@@ -1,0 +1,141 @@
+<section class="page-hero contact-hero photo-section">
+  <img
+    class="section-photo"
+    src="/assets/familypet-cercania.png"
+    alt="El cuidado cercano de Family Pet en la sede de La Florida, Pereira"
+    width="1280"
+    height="596"
+    fetchpriority="high"
+  />
+  <div class="page-hero-shade"></div>
+  <div class="container page-hero-content">
+    <p class="eyebrow light">CONTACTO · PEREIRA</p>
+    <h1>Empecemos<br /><span>por un hola.</span></h1>
+    <p>Tu próxima visita puede ser<br />su nueva aventura favorita.</p>
+  </div>
+</section>
+<section class="contact-section section container" id="hablemos">
+  <div class="contact-info reveal">
+    <p class="eyebrow">VEN A OLER EL CAMPO</p>
+    <h2>
+      Cerca de Pereira.<br /><span class="soft-word"
+        >Lejos de lo de siempre.</span
+      >
+    </h2>
+    <div class="contact-detail">
+      {{ICON:pin}}
+      <div>
+        <h3>La Florida, Pereira</h3>
+        <address>Vereda Mangas<br />La Florida · Pereira, Risaralda</address>
+        <a
+          class="dark-link"
+          href="https://www.google.com/maps/search/?api=1&query=Guarderia+Campestre+Family+Pet+Pereira"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Cómo llegar {{ICON:arrow}}</a
+        >
+      </div>
+    </div>
+    <div class="contact-detail">
+      {{ICON:whatsapp}}
+      <div>
+        <h3>Conversemos directamente</h3>
+        <a
+          class="phone-number"
+          href="https://wa.me/573148664384"
+          target="_blank"
+          rel="noopener noreferrer"
+          >+57 314 866 4384</a
+        >
+        <p>Tarifas, disponibilidad y visitas al jardín canino.</p>
+      </div>
+    </div>
+    <div class="contact-detail">
+      {{ICON:bus}}
+      <div>
+        <h3>Su aventura empieza en casa</h3>
+        <p>
+          Tenemos transporte puerta a puerta. Cuéntanos tu zona para consultar
+          la cobertura y coordinación.
+        </p>
+      </div>
+    </div>
+    <a
+      class="social-link dark-link"
+      href="https://www.instagram.com/guarderiafamilypet/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >{{ICON:instagram}} @guarderiafamilypet {{ICON:arrow}}</a
+    >
+  </div>
+  <form class="contact-form reveal" id="visit-form">
+    <span class="small-label">HABLEMOS DE SU PRÓXIMO GRAN DÍA</span>
+    <h3>Un pequeño mensaje.<br />Una gran aventura.</h3>
+    <div class="form-row">
+      <label for="parent-name"
+        >Tu nombre<input
+          id="parent-name"
+          name="parentName"
+          type="text"
+          placeholder="¿Cómo te llamas?"
+          autocomplete="given-name"
+          maxlength="60"
+          required /></label
+      ><label for="dog-name"
+        >Nombre de tu perro<input
+          id="dog-name"
+          name="dogName"
+          type="text"
+          placeholder="¿Y tu compañero?"
+          maxlength="60"
+          required
+      /></label>
+    </div>
+    <label for="service"
+      >¿Qué experiencia les interesa?<select
+        id="service"
+        name="service"
+        required
+      >
+        <option value="">Elige un servicio</option>
+        <option value="Guardería">Guardería · Su rutina entre amigos</option>
+        <option value="Hotel">Hotel · Compañía mientras viajas</option>
+        <option value="Pasadía">Pasadía · Un día diferente</option>
+        <option value="Orientación">Quiero que me orienten</option>
+      </select></label
+    ><label for="message"
+      >Cuéntanos un poquito más <span>(opcional)</span
+      ><textarea
+        id="message"
+        name="message"
+        placeholder="Su edad, personalidad o lo que te gustaría consultar…"
+        maxlength="600"
+        rows="3"
+      ></textarea></label
+    ><button class="button button-dark" type="submit">
+      Preparemos su aventura {{ICON:arrow}}
+    </button>
+    <p class="form-note">
+      Se abrirá WhatsApp con tu mensaje preparado.<br />Tú lo revisas y decides
+      cuándo enviarlo.
+    </p>
+    <p class="sr-only" id="form-status" aria-live="polite"></p>
+  </form>
+</section>
+<section class="contact-map-section">
+  <div class="container">
+    <div>
+      <p class="eyebrow light">UN LUGAR QUE MERECE CONOCERSE</p>
+      <h2>El campo<br /><span>nos espera.</span></h2>
+      <a
+        class="button"
+        href="https://www.google.com/maps/search/?api=1&query=Guarderia+Campestre+Family+Pet+Pereira"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Abrir ubicación en Google Maps {{ICON:arrow}}</a
+      >
+      <p>Vereda Mangas · La Florida · Pereira</p>
+    </div>
+    <div class="map-dog" aria-hidden="true">{{DOG_PLAY}}</div>
+  </div>
+</section>

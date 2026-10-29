@@ -1,0 +1,44 @@
+[
+  {
+    "path": "/",
+    "title": "Guardería canina en Pereira | Family Pet",
+    "description": "Guardería, hotel y pasadía canino en Pereira. Un entorno campestre en La Florida, cuidado sin jaulas y transporte puerta a puerta. Conoce Family Pet.",
+    "template": "home",
+    "label": "Inicio"
+  },
+  {
+    "path": "/quienes-somos/",
+    "title": "Quiénes somos | Family Pet · Pereira",
+    "description": "Conoce a la familia y al equipo de Family Pet: un proyecto campestre fundado en 2022 para acompañar a tu perro con cuidado, libertad y bienestar.",
+    "template": "about",
+    "label": "Quiénes somos"
+  },
+  {
+    "path": "/servicios/",
+    "title": "Guardería, hotel y pasadía canino | Family Pet Pereira",
+    "description": "Explora la guardería diurna, el hotel y el pasadía de Family Pet. Juego supervisado, descanso, zonas verdes y acompañamiento para tu perro en Pereira.",
+    "template": "services",
+    "label": "Servicios"
+  },
+  {
+    "path": "/contacto/",
+    "title": "Contacto y ubicación en La Florida, Pereira | Family Pet",
+    "description": "Visita Family Pet en la vereda Mangas, La Florida, Pereira. Consulta servicios y transporte puerta a puerta por WhatsApp al +57 314 866 4384.",
+    "template": "contact",
+    "label": "Contacto"
+  },
+  {
+    "path": "/hello-world/",
+    "title": "Hello world! | Archivo de Family Pet",
+    "description": "Entrada inicial del sitio de Family Pet conservada en su ruta original como parte de la renovación web.",
+    "template": "legacy-post",
+    "label": "Hello world!"
+  },
+  {
+    "path": "/category/uncategorized/",
+    "title": "Uncategorized | Archivo de Family Pet",
+    "description": "Archivo de publicaciones sin categoría de Family Pet, conservado en la dirección original del sitio.",
+    "template": "legacy-category",
+    "label": "Uncategorized"
+  }
+]

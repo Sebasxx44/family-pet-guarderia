@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 150" fill="none" stroke="#182d25" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+  <title>Retriever descansando acurrucado</title>
+  <g id="body">
+    <path d="M32 107c-3-30 19-62 52-68 39-8 77 9 87 39 4 10 4 24 0 35-5 14-22 19-50 19H69c-21 0-35-8-37-25Z" fill="#f6f2e8"/>
+    <path d="M63 57c13-10 31-12 49-8" stroke="#dc8e51"/>
+    <path d="M144 77c9 9 12 22 6 32-6 9-20 11-31 7"/>
+    <path d="M63 96c-7 1-11 7-7 12 3 5 13 7 23 7" fill="#dc8e51"/>
+  </g>
+  <g id="tail">
+    <path d="M157 104c-2 15-22 22-48 19l-29-6c-15-3-30-1-38 5-6 5-6 9 0 10 27-8 45 4 70 6 33 2 61-9 66-25" fill="#dc8e51"/>
+    <path d="M42 128c6-3 14-4 20-3" stroke="#f6f2e8"/>
+  </g>
+  <g id="head">
+    <path d="M88 87c2-13 16-23 29-21 11 0 20 7 24 15l15 5c8 2 8 10 1 14l-16 5-12 9-22-2c-13-1-22-10-19-25Z" fill="#f6f2e8"/>
+    <path d="M104 70c-10-1-17 5-17 15l1 18c1 9 10 13 15 6 6-9 10-21 9-31" fill="#dc8e51"/>
+    <path d="M125 83c3 4 7 4 10 0M137 97c4 2 8 1 11-1"/>
+    <path d="m152 86 7 3-1 5-7-1Z" fill="#182d25" stroke="none"/>
+    <path d="m112 108 11 3" stroke="#d4ed64" stroke-width="5"/>
+    <path d="M125 114c1-4 5-5 11-5l20 2c7 1 7 7 0 8h-23" fill="#f6f2e8"/>
+  </g>
+  <path d="M169 56c4-5 10-3 10 2 0 4-7 7-8 12h10m6-26c4-5 10-3 10 2 0 4-7 7-8 12h10" stroke="#d4ed64"/>
+</svg>

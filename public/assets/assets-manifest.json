@@ -1,0 +1,278 @@
+{
+  "source": "WordPress media API oficial: https://guarderiafamilypet.com/wp-json/wp/v2/media?per_page=100",
+  "assets": [
+    {
+      "file": "familypet-logo-color.png",
+      "sourceUrl": "https://guarderiafamilypet.com/wp-content/uploads/2026/04/logo-huella-sin-fondo-.png",
+      "sourcePage": "https://guarderiafamilypet.com/",
+      "width": 1556,
+      "height": 1921,
+      "mimeType": "image/png",
+      "description": "Logo oficial Family Pet a color; transparencia",
+      "suggestedUse": "logo"
+    },
+    {
+      "file": "familypet-logo-white.png",
+      "sourceUrl": "https://guarderiafamilypet.com/wp-content/uploads/2025/09/cropped-LOGO-GUARDERIA-FAMILY-PET_Mesa-de-trabajo-1-2-1.png",
+      "sourcePage": "https://guarderiafamilypet.com/",
+      "width": 512,
+      "height": 512,
+      "mimeType": "image/png",
+      "description": "Logo oficial Family Pet blanco; transparencia",
+      "suggestedUse": "logo-dark-background"
+    },
+    {
+      "file": "familypet-equipo.jpg",
+      "sourceUrl": "https://guarderiafamilypet.com/wp-content/uploads/2025/09/Rectangle-1.jpg",
+      "sourcePage": "https://guarderiafamilypet.com/",
+      "width": 1280,
+      "height": 581,
+      "mimeType": "image/jpeg",
+      "description": "Equipo humano oficial en la sede con un perro",
+      "suggestedUse": "about-background"
+    },
+    {
+      "file": "familypet-cuidado.png",
+      "sourceUrl": "https://guarderiafamilypet.com/wp-content/uploads/2025/10/Rectangle-1.png",
+      "sourcePage": "https://guarderiafamilypet.com/",
+      "width": 1280,
+      "height": 727,
+      "mimeType": "image/png",
+      "description": "Integrante del equipo con dos perros en el campo",
+      "suggestedUse": "care-background"
+    },
+    {
+      "file": "familypet-cercania.png",
+      "sourceUrl": "https://guarderiafamilypet.com/wp-content/uploads/2025/09/Rectangle-1-2-1.png",
+      "sourcePage": "https://guarderiafamilypet.com/",
+      "width": 1280,
+      "height": 596,
+      "mimeType": "image/png",
+      "description": "Cuidador de Family Pet junto a un perro de pelaje merle",
+      "suggestedUse": "services-background"
+    },
+    {
+      "file": "familypet-abrazo.png",
+      "sourceUrl": "https://guarderiafamilypet.com/wp-content/uploads/2025/09/Rectangle-11.png",
+      "sourcePage": "https://guarderiafamilypet.com/",
+      "width": 1280,
+      "height": 456,
+      "mimeType": "image/png",
+      "description": "Primer plano de una persona abrazando a un perro",
+      "suggestedUse": "contact-background"
+    },
+    {
+      "file": "familypet-confianza.png",
+      "sourceUrl": "https://guarderiafamilypet.com/wp-content/uploads/2025/09/Rectangle-6.png",
+      "sourcePage": "https://guarderiafamilypet.com/",
+      "width": 1280,
+      "height": 456,
+      "mimeType": "image/png",
+      "description": "Cuidador compartiendo un momento cercano con un perro",
+      "suggestedUse": "care-background"
+    },
+    {
+      "file": "familypet-manada.webp",
+      "sourceUrl": "https://guarderiafamilypet.com/wp-content/uploads/2026/04/1000176043.webp",
+      "sourcePage": "https://guarderiafamilypet.com/",
+      "width": 600,
+      "height": 800,
+      "mimeType": "image/webp",
+      "description": "Grupo de perros de distintos tamaños en el parque",
+      "suggestedUse": "hero-candidate"
+    },
+    {
+      "file": "familypet-parque.webp",
+      "sourceUrl": "https://guarderiafamilypet.com/wp-content/uploads/2026/04/1000170760.webp",
+      "sourcePage": "https://guarderiafamilypet.com/",
+      "width": 602,
+      "height": 800,
+      "mimeType": "image/webp",
+      "description": "Zona campestre arbolada con juegos y sendero",
+      "suggestedUse": "campus-background"
+    },
+    {
+      "file": "familypet-juegos.webp",
+      "sourceUrl": "https://guarderiafamilypet.com/wp-content/uploads/2026/04/1000175998.webp",
+      "sourcePage": "https://guarderiafamilypet.com/",
+      "width": 600,
+      "height": 800,
+      "mimeType": "image/webp",
+      "description": "Perros recorren parque campestre y zona de juegos",
+      "suggestedUse": "daycare"
+    },
+    {
+      "file": "familypet-husky.webp",
+      "sourceUrl": "https://guarderiafamilypet.com/wp-content/uploads/2026/04/1000175983.webp",
+      "sourcePage": "https://guarderiafamilypet.com/",
+      "width": 600,
+      "height": 800,
+      "mimeType": "image/webp",
+      "description": "Primer plano de husky al aire libre con otro perro",
+      "suggestedUse": "gallery"
+    },
+    {
+      "file": "familypet-descanso.webp",
+      "sourceUrl": "https://guarderiafamilypet.com/wp-content/uploads/2026/04/1000176063.webp",
+      "sourcePage": "https://guarderiafamilypet.com/",
+      "width": 600,
+      "height": 800,
+      "mimeType": "image/webp",
+      "description": "Perro blanco recostado sobre el césped",
+      "suggestedUse": "hotel"
+    },
+    {
+      "file": "familypet-amigos.webp",
+      "sourceUrl": "https://guarderiafamilypet.com/wp-content/uploads/2026/04/1000176175.webp",
+      "sourcePage": "https://guarderiafamilypet.com/",
+      "width": 720,
+      "height": 960,
+      "mimeType": "image/webp",
+      "description": "Grupo de perros al aire libre junto al césped",
+      "suggestedUse": "daycare"
+    },
+    {
+      "file": "familypet-explorador.webp",
+      "sourceUrl": "https://guarderiafamilypet.com/wp-content/uploads/2026/04/1000176031.webp",
+      "sourcePage": "https://guarderiafamilypet.com/",
+      "width": 600,
+      "height": 800,
+      "mimeType": "image/webp",
+      "description": "Perro con pañuelo entre la vegetación del jardín",
+      "suggestedUse": "gallery"
+    },
+    {
+      "file": "familypet-pasadia.webp",
+      "sourceUrl": "https://guarderiafamilypet.com/wp-content/uploads/2026/04/1000175968.webp",
+      "sourcePage": "https://guarderiafamilypet.com/",
+      "width": 600,
+      "height": 800,
+      "mimeType": "image/webp",
+      "description": "Dos perros en el parque de Family Pet",
+      "suggestedUse": "day-trip"
+    },
+    {
+      "file": "familypet-aventura.webp",
+      "sourceUrl": "https://guarderiafamilypet.com/wp-content/uploads/2026/04/1000175980.webp",
+      "sourcePage": "https://guarderiafamilypet.com/",
+      "width": 600,
+      "height": 800,
+      "mimeType": "image/webp",
+      "description": "Perros junto a un juego de llantas del parque",
+      "suggestedUse": "daycare"
+    },
+    {
+      "file": "familypet-sociables.webp",
+      "sourceUrl": "https://guarderiafamilypet.com/wp-content/uploads/2026/04/1000175962.webp",
+      "sourcePage": "https://guarderiafamilypet.com/",
+      "width": 600,
+      "height": 800,
+      "mimeType": "image/webp",
+      "description": "Perros de distintos tamaños comparten una zona de juego",
+      "suggestedUse": "daycare"
+    },
+    {
+      "file": "familypet-jugador.webp",
+      "sourceUrl": "https://guarderiafamilypet.com/wp-content/uploads/2026/04/1000175965.webp",
+      "sourcePage": "https://guarderiafamilypet.com/",
+      "width": 600,
+      "height": 800,
+      "mimeType": "image/webp",
+      "description": "Perro de pelaje café y blanco junto a un juego campestre",
+      "suggestedUse": "gallery"
+    },
+    {
+      "file": "familypet-ruta.webp",
+      "sourceUrl": "https://guarderiafamilypet.com/wp-content/uploads/2026/04/1000175693.webp",
+      "sourcePage": "https://guarderiafamilypet.com/",
+      "width": 451,
+      "height": 800,
+      "mimeType": "image/webp",
+      "description": "Perros dentro de un vehículo de transporte",
+      "suggestedUse": "transport"
+    },
+    {
+      "file": "familypet-colaboradora.webp",
+      "sourceUrl": "https://guarderiafamilypet.com/wp-content/uploads/2026/04/colaboradora_01.webp",
+      "sourcePage": "https://guarderiafamilypet.com/",
+      "width": 312,
+      "height": 312,
+      "mimeType": "image/webp",
+      "description": "Integrante del equipo con un perro pequeño",
+      "suggestedUse": "team"
+    },
+    {
+      "file": "familypet-fundador.png",
+      "sourceUrl": "https://guarderiafamilypet.com/wp-content/uploads/2025/09/Rectangle-5-3.png",
+      "sourcePage": "https://guarderiafamilypet.com/",
+      "width": 268,
+      "height": 408,
+      "mimeType": "image/png",
+      "description": "Fotografía junto a la presentación del fundador Alexis Estrada en la página principal",
+      "suggestedUse": "founder"
+    },
+    {
+      "file": "familypet-cuidador.png",
+      "sourceUrl": "https://guarderiafamilypet.com/wp-content/uploads/2025/09/Rectangle-30.png",
+      "sourcePage": "https://guarderiafamilypet.com/",
+      "width": 351,
+      "height": 229,
+      "mimeType": "image/png",
+      "description": "Cuidador con un perro en el campo",
+      "suggestedUse": "team"
+    },
+    {
+      "file": "familypet-manada-cuidado.png",
+      "sourceUrl": "https://guarderiafamilypet.com/wp-content/uploads/2025/09/Rectangle-28.png",
+      "sourcePage": "https://guarderiafamilypet.com/",
+      "width": 453,
+      "height": 446,
+      "mimeType": "image/png",
+      "description": "Integrante del equipo con varios perros",
+      "suggestedUse": "team"
+    },
+    {
+      "file": "familypet-familia.png",
+      "sourceUrl": "https://guarderiafamilypet.com/wp-content/uploads/2025/09/Rectangle-35.png",
+      "sourcePage": "https://guarderiafamilypet.com/",
+      "width": 258,
+      "height": 302,
+      "mimeType": "image/png",
+      "description": "Integrante del equipo junto a una niña y perros",
+      "suggestedUse": "team"
+    },
+    {
+      "file": "familypet-cuidadora.png",
+      "sourceUrl": "https://guarderiafamilypet.com/wp-content/uploads/2025/09/Rectangle-33.png",
+      "sourcePage": "https://guarderiafamilypet.com/",
+      "width": 477,
+      "height": 482,
+      "mimeType": "image/png",
+      "description": "Integrante del equipo en el parque",
+      "suggestedUse": "team"
+    },
+    {
+      "file": "familypet-golden-cutout.png",
+      "sourceUrl": "https://guarderiafamilypet.com/wp-content/uploads/2025/09/403331701_0aec1d46-a774-4076-8acd-b13adfe1ddc4-1.png",
+      "sourcePage": "https://guarderiafamilypet.com/",
+      "width": 693,
+      "height": 699,
+      "mimeType": "image/png",
+      "description": "Recorte fotográfico oficial de golden retriever, fondo transparente",
+      "suggestedUse": "photo-accent"
+    }
+  ],
+  "contact": {
+    "whatsapp": "+573148664384",
+    "whatsappUrl": "https://wa.me/573148664384",
+    "instagram": "https://www.instagram.com/guarderiafamilypet/",
+    "facebook": "https://www.facebook.com/guarderiafamilypet/",
+    "address": "Vereda Mangas - La Florida, Pereira, Risaralda",
+    "founder": "Alexis Estrada",
+    "foundingDate": "2022",
+    "hoursFromStructuredData": {
+      "mondayToSaturday": "06:00-17:00",
+      "sunday": "07:00-17:00"
+    }
+  }
+}

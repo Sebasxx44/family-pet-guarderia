@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es-CO">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#182d25" />
+    <title>{{TITLE}}</title>
+    <meta name="description" content="{{DESCRIPTION}}" />
+    <meta name="robots" content="{{ROBOTS}}" />
+    <link rel="canonical" href="{{CANONICAL}}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{TITLE}}" />
+    <meta property="og:description" content="{{DESCRIPTION}}" />
+    <meta property="og:url" content="{{PAGE_URL}}" />
+    <meta
+      property="og:image"
+      content="https://family-pet-sebaz.vercel.app/assets/familypet-manada.webp"
+    />
+    <meta property="og:locale" content="es_CO" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Manrope:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "@/components/": "/components/",
+          "@/composables/": "/composables/"
+        }
+      }
+    </script>
+    <script type="module" src="/app.js"></script>
+    <script type="application/ld+json">
+      {{SCHEMA}}
+    </script>
+  </head>
+  <body data-page="{{PAGE}}">
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    {{HEADER}}
+    <main id="contenido">{{BODY}}</main>
+    {{FOOTER}}
+    <a
+      class="floating-wa"
+      href="https://wa.me/573148664384?text=Hola%2C%20quiero%20conocer%20Family%20Pet."
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Escribir a Family Pet por WhatsApp"
+      >{{ICON:whatsapp}}<span>¿Nos conocemos?</span></a
+    >
+    <dialog
+      id="photo-dialog"
+      class="photo-dialog"
+      aria-labelledby="photo-title"
+    >
+      <button class="dialog-close" type="button" aria-label="Cerrar fotografía">
+        {{ICON:close}}</button
+      ><img id="dialog-image" src="/assets/familypet-manada.webp" alt="" />
+      <div>
+        <h2 id="photo-title">La vida en Family Pet</h2>
+        <p>Fotografías de nuestra manada.</p>
+      </div>
+    </dialog>
+  </body>
+</html>

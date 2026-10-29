@@ -1,0 +1,257 @@
+{
+  "audited_on": "2026-10-28",
+  "source_origin": "https://guarderiafamilypet.com",
+  "language": "es",
+  "indexing_evidence": {
+    "confirmed": "Las seis URL responden HTTP 200, están en sitemap y declaran index/follow con canonical propio.",
+    "not_confirmed": "La consulta site:guarderiafamilypet.com no devolvió resultados; solo Search Console puede confirmar cobertura real. No prometer conservación de posiciones."
+  },
+  "robots": {
+    "url": "https://guarderiafamilypet.com/robots.txt",
+    "status": 200,
+    "body": "User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\n\nSitemap: https://guarderiafamilypet.com/sitemap_index.xml\n"
+  },
+  "sitemaps": {
+    "/sitemap_index.xml": [
+      "/post-sitemap.xml",
+      "/page-sitemap.xml",
+      "/category-sitemap.xml"
+    ],
+    "/page-sitemap.xml": [
+      "/",
+      "/quienes-somos/",
+      "/contacto/",
+      "/servicios/"
+    ],
+    "/post-sitemap.xml": [
+      "/hello-world/"
+    ],
+    "/category-sitemap.xml": [
+      "/category/uncategorized/"
+    ],
+    "existing_aliases": {
+      "/sitemap.xml": "/sitemap_index.xml",
+      "/wp-sitemap.xml": "/sitemap_index.xml"
+    }
+  },
+  "pages": [
+    {
+      "path": "/",
+      "url": "https://guarderiafamilypet.com/",
+      "status": 200,
+      "title": "Guardería canina Pereira | Family Pet",
+      "description": "La mejor *guardería canina Pereira* y hotel para tu mascota. En Family Pet ofrecemos transporte puerta a puerta y amplias zonas verdes. ¡Reserva hoy!",
+      "canonical": "https://guarderiafamilypet.com/",
+      "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "primary_heading": "Inicio",
+      "type": "business",
+      "keep_path": true
+    },
+    {
+      "path": "/quienes-somos/",
+      "url": "https://guarderiafamilypet.com/quienes-somos/",
+      "status": 200,
+      "title": "Quiénes Somos -",
+      "description": "Fundada en 2022",
+      "canonical": "https://guarderiafamilypet.com/quienes-somos/",
+      "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "primary_heading": "Quiénes Somos",
+      "type": "business",
+      "keep_path": true
+    },
+    {
+      "path": "/servicios/",
+      "url": "https://guarderiafamilypet.com/servicios/",
+      "status": 200,
+      "title": "Servicios -",
+      "description": "(Estancias largas o nocturnas)",
+      "canonical": "https://guarderiafamilypet.com/servicios/",
+      "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "primary_heading": "Servicios",
+      "type": "business",
+      "keep_path": true
+    },
+    {
+      "path": "/contacto/",
+      "url": "https://guarderiafamilypet.com/contacto/",
+      "status": 200,
+      "title": "Contacto -",
+      "description": "Si deseas conocer más acerca de Pet Family, y todos sus servicios, no dudes en escribirnos, estaremos encantados de comunicarnos contigo.",
+      "canonical": "https://guarderiafamilypet.com/contacto/",
+      "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "primary_heading": "Contacto",
+      "type": "business",
+      "keep_path": true
+    },
+    {
+      "path": "/hello-world/",
+      "url": "https://guarderiafamilypet.com/hello-world/",
+      "status": 200,
+      "title": "Hello world! -",
+      "description": "Welcome to WordPress. This is your first post. Edit or delete it, then start writing!",
+      "canonical": "https://guarderiafamilypet.com/hello-world/",
+      "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "primary_heading": "Hello world!",
+      "type": "legacy_wordpress_placeholder",
+      "keep_path": true
+    },
+    {
+      "path": "/category/uncategorized/",
+      "url": "https://guarderiafamilypet.com/category/uncategorized/",
+      "status": 200,
+      "title": "Uncategorized -",
+      "description": null,
+      "canonical": "https://guarderiafamilypet.com/category/uncategorized/",
+      "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "primary_heading": "Uncategorized",
+      "type": "legacy_wordpress_archive",
+      "keep_path": true
+    }
+  ],
+  "facts": {
+    "contact": {
+      "whatsapp_e164": "+573148664384",
+      "whatsapp_url": "https://wa.me/573148664384",
+      "address": "Vereda Mangas, La Florida – Pereira, Risaralda, Colombia",
+      "transport": "Servicio puerta a puerta. Pasadía lista transporte de ida y regreso.",
+      "instagram": "https://www.instagram.com/guarderiafamilypet/",
+      "facebook": "https://www.facebook.com/guarderiafamilypet/",
+      "map_embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110723.33811926446!2d-75.7899484373869!3d4.809094355367651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8944c50de99efbc9%3A0xa99799a95a82471!2sGuarderia%20Campestre%20Family%20Pet!5e1!3m2!1ses-419!2sco!4v1775252156087!5m2!1ses-419!2sco"
+    },
+    "hotel": {
+      "source": "https://guarderiafamilypet.com/servicios/",
+      "duration": "Estancias largas o nocturnas",
+      "includes": [
+        "Salón compartido con camas individuales, mantas limpias y juguetes",
+        "Supervisión nocturna por cuidadores entrenados",
+        "Fotos, videos e información de comportamiento",
+        "Caminatas, juego y estimulación mental",
+        "Zonas de campo abierto y socialización",
+        "Alimentación según indicaciones del dueño"
+      ]
+    },
+    "guarderia": {
+      "source": "https://guarderiafamilypet.com/servicios/",
+      "duration": "Diurna regular o semanal",
+      "includes": [
+        "Rutinas de juego y descanso",
+        "Socialización grupal",
+        "Pelotas, túneles y búsqueda de premios",
+        "Entrenamiento básico: sentado, quieto y llamado",
+        "Reportes diarios o semanales",
+        "Sombra, descanso e hidratación",
+        "Alimentación enviada por el dueño en la hora indicada",
+        "Verificación de vacunas al ingreso"
+      ]
+    },
+    "pasadia": {
+      "source": "https://guarderiafamilypet.com/servicios/",
+      "duration": "Ingreso en la mañana y salida en la tarde",
+      "includes": [
+        "Zonas verdes seguras",
+        "Juego supervisado individual o grupal",
+        "Fotos y video del día",
+        "Alimento enviado por el dueño en hora indicada",
+        "Descanso en zonas frescas",
+        "Transporte de ida y regreso"
+      ]
+    },
+    "history": {
+      "source": "https://guarderiafamilypet.com/quienes-somos/",
+      "founded_year": 2022,
+      "opened_on": "2022-12-20",
+      "approach": [
+        "Atención sin jaulas",
+        "Área hotelera conectada por sendero con zonas verdes",
+        "Ambiente campestre y familiar"
+      ]
+    },
+    "team": [
+      {
+        "name": "Alexis Estrada",
+        "role": "Fundador y Gerente General",
+        "qualification": "Zootecnista",
+        "experience_claim": "Más de 8 años en el mundo de las mascotas"
+      },
+      {
+        "name": "Lina Henao",
+        "role": "Cofundadora",
+        "qualification": "Zootecnista",
+        "experience_claim": "Más de 15 años en el sector agropecuario"
+      },
+      {
+        "name": "Karol Vanessa Cardona Idarraga",
+        "role": "Auxiliar Veterinaria y Cuidadora"
+      },
+      {
+        "name": "Michael Brahian Maya Montoya",
+        "role": "Conductor y Cuidador"
+      }
+    ],
+    "not_published": [
+      "Tarifas",
+      "Horario preciso de apertura/cierre",
+      "Cobertura exacta de transporte",
+      "Protocolo completo de admisión",
+      "Certificaciones de calidad",
+      "Disponibilidad o cupos en tiempo real"
+    ]
+  },
+  "migration": {
+    "preserve_200": [
+      "/",
+      "/quienes-somos/",
+      "/servicios/",
+      "/contacto/"
+    ],
+    "legacy_policy": {
+      "paths": [
+        "/hello-world/",
+        "/category/uncategorized/"
+      ],
+      "recommended_for_proposal": "Mantener páginas legacy 200 con identidad visual nueva, sin promocionarlas en navegación principal. Son placeholders; no inventar artículos ni afirmar que generan tráfico.",
+      "future_cleanup": "Eliminar o cambiar indexación solo con decisión del titular. No enviar 301 genérico a inicio sin equivalencia."
+    },
+    "safe_redirects": [
+      {
+        "from": "/quienes-somos",
+        "to": "/quienes-somos/",
+        "status": 301
+      },
+      {
+        "from": "/servicios",
+        "to": "/servicios/",
+        "status": 301
+      },
+      {
+        "from": "/contacto",
+        "to": "/contacto/",
+        "status": 301
+      },
+      {
+        "from": "/hello-world",
+        "to": "/hello-world/",
+        "status": 301
+      },
+      {
+        "from": "/category/uncategorized",
+        "to": "/category/uncategorized/",
+        "status": 301
+      }
+    ],
+    "preview": {
+      "robots_meta": "noindex, follow",
+      "x_robots_tag": "noindex, follow",
+      "allow_crawling": true,
+      "canonical_rule": "Cada ruta de la propuesta apunta a su equivalente https://guarderiafamilypet.com.",
+      "reason": "Evitar que la propuesta en Vercel compita como duplicado del negocio. No altera la indexación del dominio original."
+    },
+    "production_on_original_domain": {
+      "robots_meta": "index, follow",
+      "canonical_rule": "Autorreferente en dominio original y ruta conservada.",
+      "sitemap": "Conservar endpoint /sitemap_index.xml y mapas equivalentes, con URLs canónicas originales.",
+      "handover_check": "Comprobar 200, canonical, un H1 por página, sitemap, redirecciones, Search Console y analítica antes de reemplazar el sitio original."
+    },
+    "structured_data": "LocalBusiness/Organization y Service solo con datos verificados. No inventar aggregateRating, precios, horarios, reseñas ni certificaciones."
+  }
+}

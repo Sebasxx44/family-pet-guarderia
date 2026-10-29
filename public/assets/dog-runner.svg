@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 140" fill="none" stroke="#182d25" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+  <title>Retriever corriendo</title>
+  <g id="legs-back">
+    <path d="M77 79c-1 13-14 26-26 31l-20 2c-6 0-8 6-3 9h27c3 0 5-1 8-4l30-28" fill="#dc8e51"/>
+    <path d="m68 81-4 14 22 27 17 3c5 2 4 8-2 8H81c-3 0-5-2-7-5L50 101c-3-4-3-8-2-14" fill="#f6f2e8"/>
+    <path d="m80 121 8 2"/>
+  </g>
+  <g id="tail">
+    <path d="M66 65C43 64 31 42 14 35c-6-3-10-2-9 2 2 3 9 7 11 11 9 21 22 35 42 36" fill="#f6f2e8"/>
+    <path d="m12 41 3-6M27 60l3-5" stroke="#dc8e51"/>
+  </g>
+  <g id="body">
+    <path d="M53 63c13-14 39-14 58-9 17 5 30 1 41-9l13-17c5-7 16-8 23-3l9 8 13 4c5 2 6 7 3 11l-6 6c-4 3-10 2-16 1l-9 21c-6 12-20 21-37 21l-44-3-35 3c-16 0-25-20-13-34Z" fill="#f6f2e8"/>
+    <path d="M168 28c-8-3-14 1-14 10l1 16c1 8 7 12 12 7 7-6 9-17 10-23" fill="#dc8e51"/>
+    <path d="m173 73-6 8-6-3-5 7-5-3"/>
+    <path d="M72 61c16-5 32-1 43 2" stroke="#dc8e51"/>
+    <path d="m181 54 6-13" stroke="#d4ed64" stroke-width="5"/>
+    <path d="M194 49c4 2 8 2 12 0"/>
+    <circle cx="190" cy="35" r="2.1" fill="#182d25" stroke="none"/>
+    <path d="m209 37 5 2-2 5-5-3Z" fill="#182d25" stroke="none"/>
+  </g>
+  <g id="legs-front">
+    <path d="m145 81 13 13 24-3c7-1 10 4 6 8l-28 8c-5 1-8-1-11-4l-20-18" fill="#dc8e51"/>
+    <path d="M145 82c-1 12-4 20-2 26l12 15 12 1c7 1 8 8 1 9h-19c-3 0-6-2-8-5l-19-23c-4-5-4-13-1-22" fill="#f6f2e8"/>
+    <path d="m150 122 6 2"/>
+  </g>
+</svg>
