@@ -1,27 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 140" fill="none" stroke="#182d25" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
-  <title>Retriever corriendo</title>
-  <g id="legs-back">
-    <path d="M77 79c-1 13-14 26-26 31l-20 2c-6 0-8 6-3 9h27c3 0 5-1 8-4l30-28" fill="#dc8e51"/>
-    <path d="m68 81-4 14 22 27 17 3c5 2 4 8-2 8H81c-3 0-5-2-7-5L50 101c-3-4-3-8-2-14" fill="#f6f2e8"/>
-    <path d="m80 121 8 2"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 140" fill="none" stroke="#172e27" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+  <title>Perro trotando con cuatro patas articuladas</title>
   <g id="tail">
-    <path d="M66 65C43 64 31 42 14 35c-6-3-10-2-9 2 2 3 9 7 11 11 9 21 22 35 42 36" fill="#f6f2e8"/>
-    <path d="m12 41 3-6M27 60l3-5" stroke="#dc8e51"/>
+    <path d="M66 67C45 66 32 51 18 40c-4-3-9-3-10 0-1 3 4 6 7 10 11 20 24 31 45 33" fill="#f4ede2"/>
+    <path d="m20 48 3-5" stroke="#8b5e3c"/>
+  </g>
+  <g class="dog-leg dog-leg-back dog-leg-far" style="transform-origin:75px 83px">
+    <path d="M69 79c-2 12-5 20-15 29l-15 3c-7 1-8 8-1 9h21c4 0 6-2 9-5l21-25-2-10Z" fill="#ba8b62"/>
+  </g>
+  <g class="dog-leg dog-leg-front dog-leg-far" style="transform-origin:140px 82px">
+    <path d="m134 78 3 17 22 17c3 2 6 3 10 2l15-3c7-1 7-8 0-8h-18l-18-23Z" fill="#ba8b62"/>
   </g>
   <g id="body">
-    <path d="M53 63c13-14 39-14 58-9 17 5 30 1 41-9l13-17c5-7 16-8 23-3l9 8 13 4c5 2 6 7 3 11l-6 6c-4 3-10 2-16 1l-9 21c-6 12-20 21-37 21l-44-3-35 3c-16 0-25-20-13-34Z" fill="#f6f2e8"/>
-    <path d="M168 28c-8-3-14 1-14 10l1 16c1 8 7 12 12 7 7-6 9-17 10-23" fill="#dc8e51"/>
-    <path d="m173 73-6 8-6-3-5 7-5-3"/>
-    <path d="M72 61c16-5 32-1 43 2" stroke="#dc8e51"/>
-    <path d="m181 54 6-13" stroke="#d4ed64" stroke-width="5"/>
-    <path d="M194 49c4 2 8 2 12 0"/>
-    <circle cx="190" cy="35" r="2.1" fill="#182d25" stroke="none"/>
-    <path d="m209 37 5 2-2 5-5-3Z" fill="#182d25" stroke="none"/>
+    <path d="M60 58c18-12 38-9 57-5 16 3 28 0 39-12l9-13c5-7 15-10 23-5l12 9 12 5c5 2 6 7 2 11l-6 6c-4 3-10 2-17 1l-11 24c-5 11-18 17-33 17l-40-3-36 3c-13 0-24-8-24-19 0-8 4-14 13-19Z" fill="#f4ede2"/>
+    <path d="M72 61c13-5 29-3 40 0" stroke="#8b5e3c"/>
   </g>
-  <g id="legs-front">
-    <path d="m145 81 13 13 24-3c7-1 10 4 6 8l-28 8c-5 1-8-1-11-4l-20-18" fill="#dc8e51"/>
-    <path d="M145 82c-1 12-4 20-2 26l12 15 12 1c7 1 8 8 1 9h-19c-3 0-6-2-8-5l-19-23c-4-5-4-13-1-22" fill="#f6f2e8"/>
-    <path d="m150 122 6 2"/>
+  <g id="legs-back" class="dog-leg dog-leg-back" style="transform-origin:73px 83px">
+    <path d="M70 79c-9 4-13 13-8 22l23 28c2 3 5 4 9 4h17c7 0 8-7 1-9l-16-2-16-23c-3-4-2-10 1-14" fill="#f4ede2"/>
+    <path d="m95 124 3 5" stroke-width="1.6"/>
+  </g>
+  <g id="legs-front" class="dog-leg dog-leg-front" style="transform-origin:140px 83px">
+    <path d="M137 80c-5 10-8 20-2 28l20 22c2 2 5 3 9 3h16c7 0 8-7 1-9l-16-2-15-20c-3-4-2-12 1-20" fill="#f4ede2"/>
+    <path d="m165 124 3 5" stroke-width="1.6"/>
+  </g>
+  <g id="head">
+    <path d="m183 54 6-14" stroke="#ba8b62" stroke-width="5"/>
+    <path d="M170 27c-8-3-15 1-15 9l1 17c1 8 7 12 12 6 6-7 9-17 9-24" fill="#8b5e3c"/>
+    <circle cx="191" cy="35" r="2" fill="#172e27" stroke="none"/>
+    <path d="m208 37 7 3-3 5-5-3Z" fill="#172e27" stroke="none"/>
+    <path d="M195 48c4 2 8 2 11-1"/>
   </g>
 </svg>

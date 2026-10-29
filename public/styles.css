@@ -1,12 +1,13 @@
 /* ==================== FOUNDATIONS ==================== */
 :root {
-  --forest: #182d25;
-  --forest-deep: #10221c;
-  --cream: #f6f2e8;
-  --lime: #d4ed64;
-  --orange: #dc8e51;
-  --muted: #718074;
-  --line: #182d2526;
+  --forest: #172e27;
+  --forest-deep: #0d211a;
+  --cream: #f4ede2;
+  --sand: #d8b58d;
+  --coffee: #8b5e3c;
+  --coffee-deep: #67452f;
+  --muted: #626b60;
+  --line: #172e2726;
   --body: "Manrope", sans-serif;
   --heading: "Bricolage Grotesque", sans-serif;
   scroll-behavior: smooth;
@@ -88,7 +89,7 @@ button {
 }
 ::selection {
   color: var(--forest);
-  background: var(--lime);
+  background: var(--sand);
 }
 [hidden] {
   display: none !important;
@@ -113,7 +114,7 @@ button {
   color: #e4eadb;
 }
 .soft-word {
-  color: #829080;
+  color: var(--coffee);
 }
 .ui-icon {
   display: inline-block;
@@ -128,8 +129,8 @@ button {
   justify-content: space-between;
   gap: 38px;
   min-height: 56px;
-  background: var(--lime);
-  color: var(--forest);
+  background: var(--coffee);
+  color: var(--cream);
   padding: 17px 26px;
   border-radius: 100px;
   font-size: 12px;
@@ -141,7 +142,7 @@ button {
     transform 0.2s;
 }
 .button:hover {
-  background: #e5fa8e;
+  background: var(--coffee-deep);
   transform: translateY(-2px);
 }
 .button .ui-icon {
@@ -188,9 +189,11 @@ button {
   width: 17px;
   height: 17px;
 }
-.text-link:hover,
+.text-link:hover {
+  color: var(--sand);
+}
 .dark-link:hover {
-  color: #83933c;
+  color: var(--coffee);
 }
 .section-heading {
   display: flex;
@@ -229,7 +232,7 @@ button {
   top: 10px;
   left: 12px;
   z-index: 100;
-  background: var(--lime);
+  background: var(--sand);
   padding: 12px 18px;
   transform: translateY(-160%);
   border-radius: 5px;
@@ -243,7 +246,7 @@ summary:focus-visible,
 input:focus-visible,
 textarea:focus-visible,
 select:focus-visible {
-  outline: 3px solid var(--orange);
+  outline: 3px solid var(--coffee);
   outline-offset: 5px;
 }
 .photo-section {
@@ -310,7 +313,7 @@ select:focus-visible {
   letter-spacing: -0.06em;
 }
 .brand-pet {
-  color: var(--lime);
+  color: var(--sand);
   margin-left: 3px;
 }
 .brand small {
@@ -336,7 +339,7 @@ select:focus-visible {
 }
 .main-nav a:hover,
 .main-nav a[aria-current="page"] {
-  border-bottom-color: var(--lime);
+  border-bottom-color: var(--sand);
 }
 .menu-toggle {
   display: none;
@@ -420,8 +423,8 @@ select:focus-visible {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: var(--lime);
-  box-shadow: 0 0 0 5px #d4ed6412;
+  background: var(--sand);
+  box-shadow: 0 0 0 5px #d8b58d12;
   flex: none;
 }
 .hero h1 {
@@ -432,7 +435,7 @@ select:focus-visible {
   font-size: clamp(78px, 8.8vw, 138px);
 }
 .hero h1 > span {
-  color: var(--lime);
+  color: var(--sand);
 }
 .hero-description {
   color: #d7dfd1;
@@ -466,7 +469,7 @@ select:focus-visible {
 .hero-location .ui-icon {
   width: 17px;
   height: 17px;
-  color: var(--lime);
+  color: var(--sand);
 }
 .hero-location > span {
   padding-left: 16px;
@@ -482,7 +485,7 @@ select:focus-visible {
   width: 135px;
   height: 135px;
   border-radius: 50%;
-  background: var(--lime);
+  background: var(--sand);
   color: var(--forest);
   display: flex;
   align-items: center;
@@ -490,7 +493,7 @@ select:focus-visible {
   flex-direction: column;
   gap: 10px;
   rotate: 12deg;
-  outline: 1px solid #d4ed6470;
+  outline: 1px solid #d8b58d70;
   outline-offset: 7px;
   z-index: 2;
   animation: seal-sway 8s ease-in-out infinite;
@@ -534,14 +537,14 @@ select:focus-visible {
 .hero-bottom a .ui-icon {
   width: 17px;
   height: 17px;
-  color: var(--lime);
+  color: var(--sand);
 }
 .benefits-strip {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   gap: 30px;
-  background: var(--lime);
+  background: var(--sand);
   color: var(--forest);
   padding: 23px 40px;
   min-height: 78px;
@@ -610,7 +613,7 @@ select:focus-visible {
 }
 .canine-journey {
   height: 178px;
-  background: var(--lime);
+  background: var(--sand);
   position: relative;
   overflow: hidden;
   --run-progress: 0;
@@ -623,7 +626,7 @@ select:focus-visible {
   font-size: 8px;
   letter-spacing: 0.16em;
   font-weight: 650;
-  color: #315038;
+  color: var(--coffee-deep);
 }
 .adventure-trail {
   position: absolute;
@@ -656,7 +659,7 @@ select:focus-visible {
   height: 24px;
   border-radius: 50%;
   border: 1.5px solid var(--forest);
-  background: var(--orange);
+  background: var(--coffee);
   transform: rotate(calc(var(--run-progress) * 360deg));
 }
 .journey-ball:after {
@@ -674,19 +677,20 @@ select:focus-visible {
   transform-box: fill-box;
   transform-origin: 90% 80%;
 }
-.running-dog #legs-front,
-.running-dog #legs-back {
-  transform-box: fill-box;
-  transform-origin: 50% 5%;
+.running-dog .dog-leg {
+  transform-box: view-box;
 }
 .is-running .running-dog #tail {
   animation: tail-wag 0.4s ease-in-out infinite alternate;
 }
-.is-running .running-dog #legs-front {
+.is-running .running-dog .dog-leg-front {
   animation: dog-stride 0.36s ease-in-out infinite alternate;
 }
-.is-running .running-dog #legs-back {
+.is-running .running-dog .dog-leg-back {
   animation: dog-stride 0.36s ease-in-out infinite alternate-reverse;
+}
+.is-running .running-dog .dog-leg-far {
+  animation-delay: -0.36s;
 }
 
 /* ==================== EXPERIENCES ==================== */
@@ -750,7 +754,7 @@ select:focus-visible {
 .card-top .ui-icon {
   width: 25px;
   height: 25px;
-  color: var(--lime);
+  color: var(--sand);
 }
 .card-bottom {
   position: absolute;
@@ -788,8 +792,8 @@ select:focus-visible {
   height: 20px;
 }
 .experience-card:hover .round-arrow {
-  background: var(--lime);
-  border-color: var(--lime);
+  background: var(--sand);
+  border-color: var(--sand);
   color: var(--forest);
 }
 
@@ -818,7 +822,7 @@ select:focus-visible {
 }
 .freedom h2 em {
   font-style: normal;
-  color: var(--lime);
+  color: var(--sand);
 }
 .freedom-facts {
   display: grid;
@@ -831,7 +835,7 @@ select:focus-visible {
 .freedom-facts > div > .ui-icon {
   width: 29px;
   height: 29px;
-  color: var(--lime);
+  color: var(--sand);
   margin-bottom: 19px;
 }
 .freedom-facts h3 {
@@ -883,7 +887,7 @@ select:focus-visible {
   padding: 32px;
   border: 1px solid var(--line);
   border-radius: 10px;
-  background: #efeee3;
+  background: #eee5d8;
 }
 .finder-panel > .small-label {
   font-size: 8px;
@@ -915,7 +919,7 @@ select:focus-visible {
   border-color: var(--forest);
 }
 .finder-choices button[aria-pressed="true"] .ui-icon {
-  color: var(--lime);
+  color: var(--sand);
 }
 .finder-choices button .ui-icon {
   width: 22px;
@@ -924,7 +928,7 @@ select:focus-visible {
 .finder-result {
   padding: 30px 24px 25px;
   margin-top: 25px;
-  background: var(--lime);
+  background: var(--sand);
   border-radius: 5px;
 }
 .finder-result > span {
@@ -940,7 +944,7 @@ select:focus-visible {
 .finder-result p {
   font-size: 12px;
   line-height: 1.8;
-  color: #415436;
+  color: #4f483b;
   margin-top: 12px;
   max-width: 340px;
 }
@@ -960,7 +964,7 @@ select:focus-visible {
   overflow: hidden;
 }
 .manada-section h2 > span {
-  color: var(--lime);
+  color: var(--sand);
 }
 .gallery-track {
   display: grid;
@@ -1039,7 +1043,7 @@ select:focus-visible {
   max-width: 670px;
 }
 .family-story h2 > span {
-  color: var(--lime);
+  color: var(--sand);
 }
 .family-story-content > p:not(.eyebrow) {
   color: #d3ddc9;
@@ -1137,7 +1141,7 @@ select:focus-visible {
   line-height: 0.98;
 }
 .final-cta h2 > span {
-  color: var(--lime);
+  color: var(--sand);
 }
 .final-cta .button {
   margin-top: 33px;
@@ -1174,7 +1178,7 @@ select:focus-visible {
   letter-spacing: -0.065em;
 }
 .page-hero h1 span {
-  color: var(--lime);
+  color: var(--sand);
 }
 .page-hero-content > p:not(.eyebrow) {
   font-size: 13px;
@@ -1184,7 +1188,9 @@ select:focus-visible {
   max-width: 450px;
 }
 .about-hero > .section-photo {
-  object-position: 60% 20%;
+  top: 72px;
+  height: calc(100% - 72px);
+  object-position: 60% 0;
 }
 .about-story {
   display: grid;
@@ -1226,7 +1232,7 @@ select:focus-visible {
   font-size: 76px;
 }
 .team-feature h2 span {
-  color: var(--lime);
+  color: var(--sand);
 }
 .team-feature-content > p:not(.eyebrow) {
   font-size: 13px;
@@ -1270,7 +1276,7 @@ select:focus-visible {
   margin-top: 15px;
 }
 .simple-cta {
-  background: var(--lime);
+  background: var(--sand);
   padding-block: 75px;
   position: relative;
   overflow: hidden;
@@ -1290,7 +1296,7 @@ select:focus-visible {
   font-size: 62px;
 }
 .simple-cta h2 span {
-  color: #6d8635;
+  color: var(--coffee);
 }
 .simple-cta .button {
   margin-top: 30px;
@@ -1332,7 +1338,7 @@ select:focus-visible {
 .service-shortcuts .ui-icon {
   width: 17px;
   height: 17px;
-  color: var(--lime);
+  color: var(--sand);
 }
 .service-detail {
   display: grid;
@@ -1435,7 +1441,7 @@ select:focus-visible {
   font-size: 82px;
 }
 .hotel-content h2 > span {
-  color: var(--lime);
+  color: var(--sand);
 }
 .hotel-content > div > p:not(.eyebrow) {
   font-size: 12px;
@@ -1465,13 +1471,13 @@ select:focus-visible {
   margin-top: 17px;
 }
 .hotel-details .ui-icon {
-  color: var(--lime);
+  color: var(--sand);
 }
 .service-reverse .service-detail-image {
   order: 2;
 }
 .arrival-section {
-  background: #e8ecdd;
+  background: #eae1d2;
 }
 .arrival-grid {
   display: grid;
@@ -1566,7 +1572,7 @@ select:focus-visible {
   font-size: 11px;
 }
 .contact-form {
-  background: #e8ecdd;
+  background: #eae1d2;
   border: 1px solid #182d2517;
   border-radius: 8px;
   padding: 38px;
@@ -1606,7 +1612,7 @@ select:focus-visible {
 .contact-form input,
 .contact-form select,
 .contact-form textarea {
-  background: #f6f2e899;
+  background: #f4ede299;
   border: 1px solid #182d2530;
   border-radius: 4px;
   color: var(--forest);
@@ -1661,7 +1667,7 @@ select:focus-visible {
   font-size: 82px;
 }
 .contact-map-section h2 span {
-  color: var(--lime);
+  color: var(--sand);
 }
 .contact-map-section .button {
   font-size: 11px;
@@ -1705,7 +1711,7 @@ select:focus-visible {
   font-weight: 600;
 }
 .footer-wordmark > span {
-  color: var(--lime);
+  color: var(--sand);
   margin-left: 3px;
 }
 .footer-wordmark .ui-icon {
@@ -1713,7 +1719,7 @@ select:focus-visible {
   height: 31px;
   align-self: flex-start;
   transform: rotate(15deg);
-  color: var(--lime);
+  color: var(--sand);
   margin-left: 10px;
 }
 .footer-top > div:first-child > p {
@@ -1736,7 +1742,7 @@ select:focus-visible {
   margin-top: 13px;
 }
 .footer-nav > a:hover {
-  color: var(--lime);
+  color: var(--sand);
 }
 .footer-contact > a:first-of-type {
   font-family: var(--heading);
@@ -1761,7 +1767,7 @@ select:focus-visible {
 .footer-contact > .social-link .ui-icon {
   width: 16px;
   height: 16px;
-  color: var(--lime);
+  color: var(--sand);
 }
 .footer-bottom {
   display: flex;
@@ -1795,7 +1801,7 @@ select:focus-visible {
   right: 26px;
   bottom: 24px;
   z-index: 35;
-  background: var(--lime);
+  background: var(--sand);
   color: var(--forest);
   width: 54px;
   height: 54px;
@@ -1944,10 +1950,10 @@ body[data-page="not-found"] .site-header {
 }
 @keyframes dog-stride {
   from {
-    transform: rotate(-10deg);
+    transform: rotate(-8deg);
   }
   to {
-    transform: rotate(12deg);
+    transform: rotate(8deg);
   }
 }
 @keyframes seal-sway {
@@ -2808,7 +2814,7 @@ body[data-page="not-found"] .site-header {
   }
   .main-nav a[aria-current="page"] {
     border-bottom-color: #ffffff25;
-    color: var(--lime);
+    color: var(--sand);
   }
   .hero {
     min-height: 930px;

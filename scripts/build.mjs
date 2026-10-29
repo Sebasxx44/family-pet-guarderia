@@ -79,6 +79,13 @@ const photoTemplate = await readFile(
 const editorialPhotos = JSON.parse(
   await readFile(join(root, "src/data/photos.json"), "utf8"),
 );
+/** @type {Record<string, string>} */
+const heroSources = {
+  home: editorialPhotos.manada.source,
+  about: "/assets/familypet-equipo.jpg",
+  services: editorialPhotos.manada.source,
+  contact: "/assets/familypet-cercania.png",
+};
 /** @param {string} name @param {string} className */
 const photoTA = (name, className) => {
   const photo = editorialPhotos[name];
@@ -197,8 +204,8 @@ for (const route of buildRoutes) {
     DOG_RUNNER: runner,
     DOG_PLAY: play,
     DOG_SLEEP: sleep,
-    PHOTO_PRELOAD: ["home", "about", "services", "contact"].includes(route.template)
-      ? `<link rel="preload" as="image" type="image/webp" href="${editorialPhotos[["about", "contact"].includes(route.template) ? "cuidado" : "manada"].source}" />`
+    PHOTO_PRELOAD: heroSources[route.template]
+      ? `<link rel="preload" as="image" href="${heroSources[route.template]}" />`
       : "",
   };
   let html = layout.replace(
