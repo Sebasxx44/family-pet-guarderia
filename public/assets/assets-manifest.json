@@ -274,5 +274,22 @@
       "mondayToSaturday": "06:00-17:00",
       "sunday": "07:00-17:00"
     }
+  },
+  "hdAudit": {
+    "wordpressSource": "https://guarderiafamilypet.com/wp-json/wp/v2/media?per_page=100",
+    "wordpressFinding": "Los archivos usados ya corresponden al tamaño full. No contienen original_image ni tamaños mayores en media_details.",
+    "caninePhotoMaximums": {
+      "most": "600x800",
+      "parque": "602x800",
+      "amigos": "720x960"
+    },
+    "widePhotoMaximums": {
+      "equipo": "1280x581",
+      "cercania": "1280x596"
+    },
+    "instagramCandidates": "responsive/official-instagram-variants.json",
+    "cleanHighResolutionReplacementFound": false,
+    "activeFilesReplaced": true,
+    "implementation": "Fondos con material promocional oficial de mayor resolución; encuadre SVG, sin reconstrucción IA. Galería con originales reales conservados."
   }
 }

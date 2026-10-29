@@ -1,0 +1,23 @@
+{
+  "provenance": "Publicaciones oficiales originales de Instagram de Family Pet",
+  "processing": "Sharp 0.34.5: WebP quality90, resize sin ampliación ni recorte; sin IA y sin cambios de contenido.",
+  "originalsPreserved": true,
+  "assets": [
+    {
+      "file": "instagram-Dc5gKtntJhp-3274.webp",
+      "url": "/assets/responsive/instagram-Dc5gKtntJhp-3274.webp",
+      "width": 3274,
+      "height": 4096,
+      "bytes": 1264736,
+      "sourceUrl": "https://www.instagram.com/guarderiafamilypet/p/Dc5gKtntJhp/"
+    },
+    {
+      "file": "instagram-Dcgm0nHEUye-3277.webp",
+      "url": "/assets/responsive/instagram-Dcgm0nHEUye-3277.webp",
+      "width": 3277,
+      "height": 4096,
+      "bytes": 946846,
+      "sourceUrl": "https://www.instagram.com/guarderiafamilypet/p/Dcgm0nHEUye/"
+    }
+  ]
+}

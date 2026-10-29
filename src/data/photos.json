@@ -1,0 +1,18 @@
+{
+  "manada": {
+    "source": "/assets/responsive/instagram-Dc5gKtntJhp-3274.webp",
+    "width": 3274,
+    "height": 4096,
+    "crop": [0, 1100, 3274, 2800],
+    "position": "xMidYMin",
+    "origin": "https://www.instagram.com/guarderiafamilypet/p/Dc5gKtntJhp/"
+  },
+  "cuidado": {
+    "source": "/assets/responsive/instagram-Dcgm0nHEUye-3277.webp",
+    "width": 3277,
+    "height": 4096,
+    "crop": [0, 2280, 3277, 1816],
+    "position": "xMaxYMin",
+    "origin": "https://www.instagram.com/guarderiafamilypet/p/Dcgm0nHEUye/"
+  }
+}

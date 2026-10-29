@@ -260,6 +260,10 @@ select:focus-visible {
   object-fit: cover;
   z-index: -2;
 }
+.photo-hd {
+  overflow: hidden;
+  pointer-events: none;
+}
 .photo-section .eyebrow {
   color: #e6ecd8;
 }
@@ -985,7 +989,7 @@ select:focus-visible {
   transition: transform 0.6s;
 }
 .gallery-photo:hover > img {
-  transform: scale(1.05);
+  transform: none;
 }
 .gallery-photo:after {
   content: "";
@@ -1828,7 +1832,7 @@ select:focus-visible {
   opacity: 1;
 }
 .photo-dialog {
-  width: min(880px, calc(100% - 28px));
+  width: min(624px, calc(100% - 28px));
   max-height: 92dvh;
   background: var(--cream);
   border: 0;
@@ -1844,7 +1848,10 @@ select:focus-visible {
 }
 .photo-dialog > img {
   max-height: 72dvh;
-  width: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  margin-inline: auto;
   object-fit: contain;
   background: var(--forest);
   border-radius: 5px;

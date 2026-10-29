@@ -69,6 +69,36 @@ const escapeHtml = (value) =>
     .replaceAll('"', "&quot;")
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;");
+
+// ==================== PHOTO TA ====================
+const photoTemplate = await readFile(
+  join(root, "src/components/PhotoTA.html"),
+  "utf8",
+);
+/** @type {Record<string, import('@/types').EditorialPhoto>} */
+const editorialPhotos = JSON.parse(
+  await readFile(join(root, "src/data/photos.json"), "utf8"),
+);
+/** @param {string} name @param {string} className */
+const photoTA = (name, className) => {
+  const photo = editorialPhotos[name];
+  if (!photo) throw new Error(`Foto no definida: ${name}`);
+  /** @type {Record<string, string>} */
+  const attributes = {
+    PHOTO_CLASS: className,
+    PHOTO_CROP: photo.crop.join(" "),
+    PHOTO_WIDTH: String(photo.crop[2]),
+    PHOTO_HEIGHT: String(photo.crop[3]),
+    PHOTO_POSITION: photo.position,
+    PHOTO_SOURCE: photo.source,
+    SOURCE_WIDTH: String(photo.width),
+    SOURCE_HEIGHT: String(photo.height),
+  };
+  return photoTemplate.replace(/\{\{([A-Z_]+)\}\}/g, (token, key) =>
+    escapeHtml(attributes[key] ?? token),
+  );
+};
+
 /** @param {import('@/types').SiteRoute} route */
 const structuredData = (route) =>
   JSON.stringify({
@@ -167,6 +197,9 @@ for (const route of buildRoutes) {
     DOG_RUNNER: runner,
     DOG_PLAY: play,
     DOG_SLEEP: sleep,
+    PHOTO_PRELOAD: ["home", "about", "services", "contact"].includes(route.template)
+      ? `<link rel="preload" as="image" type="image/webp" href="${editorialPhotos[["about", "contact"].includes(route.template) ? "cuidado" : "manada"].source}" />`
+      : "",
   };
   let html = layout.replace(
     /\{\{([A-Z_]+)\}\}/g,
@@ -174,7 +207,10 @@ for (const route of buildRoutes) {
   );
   html = html
     .replace(/\{\{([A-Z_]+)\}\}/g, (token, name) => values[name] ?? token)
-    .replace(/\{\{ICON:([a-z-]+)\}\}/g, (token, name) => iconTA(name));
+    .replace(/\{\{ICON:([a-z-]+)\}\}/g, (token, name) => iconTA(name))
+    .replace(/\{\{PHOTO:([a-z-]+):([a-z-]+)\}\}/g, (token, name, className) =>
+      photoTA(name, className),
+    );
   if (/\{\{/.test(html))
     throw new Error(`Variable sin resolver: ${route.path}`);
   const target = route.path.endsWith(".html")
